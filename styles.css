@@ -9,12 +9,9 @@
     text-underline-position:below;
 }
 .general{
-    background-color: rgb(48, 170, 192);
+    background-color: rgb(181, 240, 250);
 }
-li a :hover{
-    background-color: blueviolet;
-    color: chartreuse;
-}
+
     .lviv{
 text-align: center;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -28,3 +25,17 @@ size: 50px;
   .im{
       size: 100px;
   }
+  a:link{
+      color: rgb(255, 0, 191);
+      padding: 2px;
+  }
+li:hover{
+background:pink;
+color: rgb(243, 42, 176);
+}
+article{
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    color: rgb(35, 38, 177);
+}
