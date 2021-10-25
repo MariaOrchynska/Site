@@ -1,12 +1,22 @@
+.tools{
+    margin: 0;
+  padding: 0;
+  justify-items: center;
+}
+
+
+
+
 .tools li{
     align-items: center;
     display: inline;
     background-color: aqua;
+    
     border: 2px solid blue;
-    padding: 4px;
+    padding: 10px;
     margin: .5em;
     width: 87px;
-    text-underline-position:below;
+   
 }
 .general{
     background-color: rgb(181, 240, 250);
@@ -23,13 +33,14 @@ size: 50px;
     size: 50px; 
   }
   .im{
-      size: 100px;
+      float: left;
   }
   a:link{
       color: rgb(255, 0, 191);
       padding: 2px;
   }
-li:hover{
+.tools li:hover{
+    font-size: 20px;
 background:pink;
 color: rgb(243, 42, 176);
 }
@@ -38,4 +49,12 @@ article{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: normal;
     color: rgb(35, 38, 177);
+}
+.second li{
+    text-align: center;
+    transition: none;
+    top: 45px;
+}
+span{
+
 }
