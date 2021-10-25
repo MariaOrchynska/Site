@@ -6,6 +6,7 @@
     padding: 4px;
     margin: .5em;
     width: 87px;
+    text-underline-position:below;
 }
 .general{
     background-color: rgb(48, 170, 192);
@@ -13,5 +14,17 @@
 li a :hover{
     background-color: blueviolet;
     color: chartreuse;
-
 }
+    .lviv{
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+size: 50px;
+    }
+  .uk{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size: 50px; 
+  }
+  .im{
+      size: 100px;
+  }
