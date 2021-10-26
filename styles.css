@@ -59,3 +59,7 @@ div{
     text-align: left;
    padding: 15px 85px;
 }
+footer{
+    padding: 20px 45px;
+    background: linear-gradient(pink);
+}
